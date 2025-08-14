@@ -1,11 +1,17 @@
 import './index.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home')
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+  useEffect(() => {
+    console.log('App component mounted successfully!')
+    console.log('Current activeSection:', activeSection)
+  }, [activeSection])
+
   const scrollToSection = (sectionId: string) => {
+    console.log('Scrolling to section:', sectionId)
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
@@ -13,6 +19,8 @@ export default function App() {
       setIsMenuOpen(false)
     }
   }
+
+  console.log('App component rendering...')
 
   return (
     <div className="lm-page">
