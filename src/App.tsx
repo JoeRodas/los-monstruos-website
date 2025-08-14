@@ -18,7 +18,7 @@ export default function App() {
     <div className="lm-page">
       <header className="lm-header">
         <div className="lm-container">
-          <div className="lm-brand">Feliz Software</div>
+          <div className="lm-brand">Los Monstruos</div>
           <nav className={`lm-nav ${isMenuOpen ? 'open' : ''}`}>
             <a 
               href="#home" 
@@ -67,7 +67,7 @@ export default function App() {
           <div className="lm-container lm-hero-grid">
             <div className="lm-hero-copy">
               <span className="lm-beta">Beta v1 • Testing phase</span>
-              <h1>Los Monstruos - Wolfenstein‑style 2.5D on iPhone & iPad</h1>
+              <h1>Wolfenstein‑style 2.5D on iPhone & iPad</h1>
               <p>
                 Experience the thrill of classic first-person shooting with our custom ray‑casting engine built in Swift 5 and SpriteKit. 
                 Features sliding doors, secret walls, intelligent AI enemies, multiple weapon types, and immersive 3D audio.
@@ -97,8 +97,8 @@ export default function App() {
             </div>
             <div className="lm-hero-media">
               <div className="lm-video-frame">
-                <video className="lm-video" autoPlay muted loop playsInline poster="/videos/poster.jpg">
-                  <source src="/videos/demo1.mp4" type="video/mp4" />
+                <video className="lm-video" autoPlay muted loop playsInline poster="/los-monstruos-website/videos/poster.jpg">
+                  <source src="/los-monstruos-website/videos/demo1.mp4" type="video/mp4" />
                 </video>
                 <div className="lm-video-caption">Gameplay preview</div>
               </div>
@@ -149,22 +149,22 @@ export default function App() {
             <h2>Gameplay Gallery</h2>
             <div className="lm-gallery">
               <div className="lm-video-card">
-                <video className="lm-video" autoPlay muted loop playsInline poster="/videos/poster1.jpg">
-                  <source src="/videos/demo1.mp4" type="video/mp4" />
+                <video className="lm-video" autoPlay muted loop playsInline poster="/los-monstruos-website/videos/poster1.jpg">
+                  <source src="/los-monstruos-website/videos/demo1.mp4" type="video/mp4" />
                 </video>
                 <div className="lm-video-caption">Combat and Interactive Doors</div>
                 <p>Experience smooth combat mechanics and discover hidden passages through interactive doors.</p>
               </div>
               <div className="lm-video-card">
-                <video className="lm-video" autoPlay muted loop playsInline poster="/videos/poster2.jpg">
-                  <source src="/videos/demo2.mp4" type="video/mp4" />
+                <video className="lm-video" autoPlay muted loop playsInline poster="/los-monstruos-website/videos/poster2.jpg">
+                  <source src="/los-monstruos-website/videos/demo2.mp4" type="video/mp4" />
                 </video>
                 <div className="lm-video-caption">AI Pathfinding & Enemies</div>
                 <p>Watch intelligent enemies navigate the environment using advanced A* pathfinding algorithms.</p>
               </div>
               <div className="lm-video-card">
-                <video className="lm-video" autoPlay muted loop playsInline poster="/videos/poster3.mp4">
-                  <source src="/videos/demo3.mp4" type="video/mp4" />
+                <video className="lm-video" autoPlay muted loop playsInline poster="/los-monstruos-website/videos/poster3.jpg">
+                  <source src="/los-monstruos-website/videos/demo3.mp4" type="video/mp4" />
                 </video>
                 <div className="lm-video-caption">Secrets & Power‑ups</div>
                 <p>Explore hidden areas and collect power-ups to enhance your combat capabilities.</p>
@@ -244,8 +244,8 @@ export default function App() {
         <div className="lm-container">
           <div className="lm-footer-content">
             <div className="lm-footer-left">
-              <div className="lm-footer-brand">Feliz Software</div>
-              <div className="lm-footer-tagline">Los Monstruos - Classic FPS gaming reimagined for mobile</div>
+              <div className="lm-footer-brand">Los Monstruos</div>
+              <div className="lm-footer-tagline">Classic FPS gaming reimagined for mobile</div>
             </div>
             <div className="lm-footer-right">
               <div className="lm-footer-links">
@@ -257,7 +257,7 @@ export default function App() {
             </div>
           </div>
           <div className="lm-footer-bottom">
-            <div>© {new Date().getFullYear()} Feliz Software. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Los Monstruos. All rights reserved.</div>
           </div>
         </div>
       </footer>

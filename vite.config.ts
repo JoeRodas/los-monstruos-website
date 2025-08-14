@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // No base path needed for custom domain
-  base: '/',
+  // Base path for GitHub Pages
+  base: '/los-monstruos-website/',
 })
