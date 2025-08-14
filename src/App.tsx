@@ -18,7 +18,7 @@ export default function App() {
     <div className="lm-page">
       <header className="lm-header">
         <div className="lm-container">
-          <div className="lm-brand">Los Monstruos</div>
+          <div className="lm-brand">Feliz Software</div>
           <nav className={`lm-nav ${isMenuOpen ? 'open' : ''}`}>
             <a 
               href="#home" 
@@ -67,7 +67,7 @@ export default function App() {
           <div className="lm-container lm-hero-grid">
             <div className="lm-hero-copy">
               <span className="lm-beta">Beta v1 • Testing phase</span>
-              <h1>Wolfenstein‑style 2.5D on iPhone & iPad</h1>
+              <h1>Los Monstruos - Wolfenstein‑style 2.5D on iPhone & iPad</h1>
               <p>
                 Experience the thrill of classic first-person shooting with our custom ray‑casting engine built in Swift 5 and SpriteKit. 
                 Features sliding doors, secret walls, intelligent AI enemies, multiple weapon types, and immersive 3D audio.
@@ -244,8 +244,8 @@ export default function App() {
         <div className="lm-container">
           <div className="lm-footer-content">
             <div className="lm-footer-left">
-              <div className="lm-footer-brand">Los Monstruos</div>
-              <div className="lm-footer-tagline">Classic FPS gaming reimagined for mobile</div>
+              <div className="lm-footer-brand">Feliz Software</div>
+              <div className="lm-footer-tagline">Los Monstruos - Classic FPS gaming reimagined for mobile</div>
             </div>
             <div className="lm-footer-right">
               <div className="lm-footer-links">
@@ -257,7 +257,7 @@ export default function App() {
             </div>
           </div>
           <div className="lm-footer-bottom">
-            <div>© {new Date().getFullYear()} Los Monstruos. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} Feliz Software. All rights reserved.</div>
           </div>
         </div>
       </footer>
